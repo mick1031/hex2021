@@ -169,7 +169,7 @@ li {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -178,12 +178,12 @@ li {
 }
 
 .skill-box {
-    width: 996px;
+    max-width: 996px;
     margin: 0 auto;
 }
 
 .skill-items {
-    width: 215px;
+    width: 220px;
     margin: 0 auto;
 }
 
@@ -276,4 +276,8 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.work {
+    max-width: 642px;
 }
