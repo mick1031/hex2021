@@ -306,12 +306,20 @@ table {
     font-size: 24px;
     line-height: 65px;
     background: #EAF0ED;
+    cursor: pointer;
 }
+
+.product-list-card .cart:hover {
+    color: #EAF0ED;
+    background-color: #3F5D45;
+}
+
 
 .pagination {
     border-top: 1px solid #3F5D45;
     border-left: 1px solid #3F5D45;
     border-bottom: 1px solid #3F5D45;
+    cursor: pointer;
 }
 
 .pagination li {
@@ -325,6 +333,11 @@ table {
 }
 
 .pagination li:hover {
+    background-color: #3F5D45;
+    color: #EAF0ED
+}
+
+.pagination li.active {
     background-color: #3F5D45;
     color: #EAF0ED
 }
